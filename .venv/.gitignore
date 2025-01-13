@@ -1,0 +1,16 @@
+# created by virtualenv automatically
+# 忽略 .env 文件，存储敏感信息
+.env
+
+# 忽略虚拟环境文件夹
+venv/
+
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略数据库临时文件（如 SQLite）
+*.sqlite3-shm
+*.sqlite3-wal
+
